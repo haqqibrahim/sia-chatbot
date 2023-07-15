@@ -1,0 +1,85 @@
+/* Add this CSS to your stylesheets */
+.chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+    color: black;
+    flex-shrink: 0;
+  }
+  
+  .support-text {
+    margin-bottom: 8px;
+  }
+  
+  .date-text {
+    color: gray;
+  }
+  
+  .messages-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    padding: 8px 12px;
+    border-radius: 8px;
+    max-width: 70%;
+  }
+  
+  .user-message {
+    align-self: flex-end;
+    background-color: #f6f6f6;
+    color: black;
+  }
+  
+  .ai-message {
+    align-self: flex-start;
+    background-color: #04c200;
+    color: white;
+  }
+  
+  .input-form {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  .input-field {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  .send-button {
+    margin-left: 8px;
+    padding: 8px 16px;
+    background-color: #04c200;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #039100;
+  }
+  
